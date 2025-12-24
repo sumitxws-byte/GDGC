@@ -5,9 +5,9 @@ class FidgetSpinner {
         this.stopBtn = document.getElementById('stopBtn');
         this.speedDisplay = document.getElementById('speedDisplay');
         
-        // Perfect physics properties
+        // changes 
         this.isSpinning = false;
-        this.angularVelocity = 0; // rad/s
+        this.angularVelocity = 0; // change 2
         this.maxAngularVelocity = 60; // rad/s (about 570 RPM)
         this.friction = 0.015; // optimized friction coefficient
         this.momentum = 0;

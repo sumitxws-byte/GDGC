@@ -17,7 +17,7 @@ class FidgetSpinner {
         this.smoothingFactor = 0.92; // for smooth visual rotation
         this.minVelocity = 0.05; // minimum velocity before stopping
         
-        // Animation properties
+        // Animation propertie
         this.animationId = null;
         this.lastFrameTime = 0;
         this.speedInterval = null;
